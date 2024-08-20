@@ -1,13 +1,18 @@
+# меняем код в ветке main
+for i in range(1):
+    print("Код изменен")
 
-print("Я конфликтую")
-for i in range(8):
-    print("слово")
 a, b = 9, 8
 if a > b:
-    print("a больше чем b")
-elif b > a:
-    print("b больше чем a")
+    print("a больше b")
+elif a < b:
+    print("a меньше b")
 else:
     print("a равно b")
+
+name = input("Введите имя")
+family_name = input("Введите фамилию")
+print(f"{name} {family_name}")
+
 
 
